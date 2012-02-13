@@ -13,6 +13,6 @@ CSS3 Fancy Box is:
   
 ###### [Demo 1](http://dl.dropbox.com/u/2111778/CSS3-Fancy-Box/CSS-BoxModel1.html)
 
-###### [Demo 2](http://dl.dropbox.com/u/2111778/CSS3-Fancy-Box/CSS-BoxModel2.html)
+###### [Demo 2](http://dl.dropbox.com/u/2111778/CSS3-Fancy-Box/CSS-BoxModel2.html#show1)
 
 	
