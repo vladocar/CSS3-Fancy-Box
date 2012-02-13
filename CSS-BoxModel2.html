@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Nivo Slider with pure CSS3 (Demo)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="css3-fancy-box.css" type="text/css" media="screen,projection">
+<style>
+body{ background-color:#fff; margin:0; padding:0;}
+
+/* overwriting the original dimensions */
+.fancybox{
+width:500px; 
+height:300px; 
+position:absolute; left:50%; margin-left:-250px; top:100px;
+
+}
+
+.button-group{
+position:absolute;
+top: 420px;
+width: 156px;
+height:40px;
+left:50%; 
+margin-left: -78px;
+z-index:3;
+}
+	
+.button{
+float:left;
+width: 10px;
+height:10px;
+background-color:#fff; 
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px; 
+border: 4px solid rgba(0,0,0,0.2);
+margin: 4px;
+	
+	
+}
+.button:hover{
+border: 4px solid #333;
+background-color:#000; 
+}
+.button:active{
+border: 4px solid #333;
+background-color:rgba(255,0,0,0.5); 
+}
+ul{
+padding:0;
+width: 948px;
+display: block;
+list-style: none;
+margin:400px auto;
+	
+}
+li{
+float: left;
+margin: 4px;
+}
+</style>
+</head>
+
+<body>
+<h1 style="text-align:center"> Nivo(like) Slider with pure CSS3 (Demo)</h1>
+
+
+<ul>
+<li><a href="#show1"><img src="cats/small/cat1-small.jpg"/></a></li>
+<li><a href="#show2"><img src="cats/small/cat2-small.jpg"/></a></li>
+<li><a href="#show3"><img src="cats/small/cat3-small.jpg"/></a></li>
+<li> <a href="#show4"><img src="cats/small/cat4-small.jpg"/></a></li>
+<li> <a href="#show5"><img src="cats/small/cat5-small.jpg"/></a></li>
+<li><a href="#show6"><img src="cats/small/cat1-small.jpg"/></a></li>
+</ul>
+ 
+
+
+<div id="show1" style="width:500px; height:300px; background-color:#000; padding:0; " class="show fancybox  transparent-border">
+<img src="cats/big/cat1-big.jpg" />
+
+
+</div>
+<div id="show2" style="width:500px; height:300px; background-color:#000; padding:0; " class="show fancybox  transparent-border">
+<img src="cats/big/cat2-big.jpg" />
+
+</div>
+<div id="show3" style="width:500px; height:300px; background-color:#000; padding:0; " class="show fancybox  transparent-border">
+<img src="cats/big/cat3-big.jpg" />
+
+</div>
+<div id="show4" style="width:500px; height:300px; background-color:#000; padding:0; " class="show fancybox  transparent-border">
+<img src="cats/big/cat4-big.jpg" />
+</div>
+<div id="show5" style="width:500px; height:300px; background-color:#000; padding:0; " class="show fancybox  transparent-border">
+<img src="cats/big/cat5-big.jpg" />
+<div class="description">What's up!?</div>
+</div>
+
+<div id="show6" style="width:500px; height:300px; background-color:#000; padding:0; " class="show fancybox  transparent-border">
+<img src="cats/big/cat1-big.jpg" />
+<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+</div>
+<div class="button-group show">
+<a href="#show1" class="button"></a>
+<a href="#show2" class="button"></a>
+<a href="#show3" class="button"></a>
+<a href="#show4" class="button"></a>
+<a href="#show5" class="button"></a>
+<a href="#show6" class="button"></a>
+</div>
+
+</body>
+</html>

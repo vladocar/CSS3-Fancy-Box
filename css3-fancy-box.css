@@ -1,0 +1,67 @@
+.fancybox{
+/* use personalized  width */
+width:300px; 
+
+/* use personalized  height */
+height:300px; 
+background-color:#fff; 
+padding:10px; 
+/* change the postion of the box */
+position:absolute; left:50%; margin-left:-150px; top:100px;
+
+border: 8px solid #333;
+display:none;
+
+}
+
+.transparent-border{
+border: 8px solid rgba(0,0,0,0.2);
+ -moz-background-clip: padding;
+ -webkit-background-clip: padding-box;
+ background-clip: padding-box;
+}
+
+.rounded{
+-webkit-border-radius: 16px;
+-moz-border-radius: 16px;
+border-radius: 16px; 
+}
+
+.shadow{
+-moz-box-shadow: 2px 2px 2px #666; 
+-webkit-box-shadow: 2px 2px 2px #666; 
+box-shadow: 2px 2px 2px #666;} 
+	
+.animate{
+-webkit-animation: openanim 1s; 
+-moz-animation: openanim 1s; 
+-ms-animation: openanim 1s; 
+}
+
+.show:target {
+display:block;
+}
+.close{ position:absolute; top:-16px; right:-16px; z-index:5; vertical-align:middle; line-height:1; font-family:Arial, sans-serif; text-decoration:none; font-weight:bold; background-color:#000; border:3px solid #fff; color:#fff; display:block; width:20px; height:20px; text-align:center; -moz-border-radius: 40px; -webkit-border-radius: 40px; border-radius: 40px; -moz-box-shadow: 0 0 1px 1px #666;-webkit-box-shadow: 0 0 1px 1px #666;box-shadow: 0 0 1px 1px #666;
+}
+
+.left-close{
+left:-16px;
+}
+
+.description{
+position:absolute; bottom:0; left:0; width:100%; height:30px; padding:5px 0; text-align:center; background-color:rgba(0,0,0,0.2); color:#fff;}
+
+@-webkit-keyframes openanim {
+  0%   { opacity: 0.0; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}
+@-moz-keyframes openanim {
+  0%   { opacity: 0.0; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}
+@-ms-keyframes openanim {
+  0%   { opacity: 0.0; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1.0; }
