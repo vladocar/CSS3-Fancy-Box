@@ -1,6 +1,6 @@
 CSS3 Fancy Box - (Modular like Fancy Box)
 -----
-Pure CSS3 Fancy Box like solution.
+Pure CSS3 Fancy Box like solution. No JavaScript.
 
 CSS3 Fancy Box is:
 ---------------------
@@ -11,8 +11,8 @@ CSS3 Fancy Box is:
   * Example class="show fancybox rounded transparent-border"
   * The events are triggered with help of :target
   
-###### [Demo 1](http://dl.dropbox.com/u/2111778/CSS3-Fancy-Box/CSS-BoxModel1.html)
+###### [Demo 1](http://vladocar.github.io/CSS3-Fancy-Box/CSS-BoxModel1.html)
 
-###### [Demo 2](http://dl.dropbox.com/u/2111778/CSS3-Fancy-Box/CSS-BoxModel2.html#show1)
+###### [Demo 2](http://vladocar.github.io/CSS3-Fancy-Box/CSS-BoxModel2.html#show1)
 
 	
