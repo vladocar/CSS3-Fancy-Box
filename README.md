@@ -1,6 +1,6 @@
 CSS3 Fancy Box - (Modular like Fancy Box)
 -----
-Pure CSS3 Fancy Box like solution.
+Pure CSS3 Fancy Box like solution. No JavaScript.
 
 CSS3 Fancy Box is:
 ---------------------
