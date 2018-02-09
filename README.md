@@ -15,4 +15,4 @@ CSS3 Fancy Box is:
 
 ###### [Demo 2](http://vladocar.github.io/CSS3-Fancy-Box/CSS-BoxModel2.html#show1)
 
-	
+http://vladocar.github.io/CSS3-Fancy-Box/	
